@@ -1,0 +1,580 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("../fonts/flaticon_mycollection.woff2?db6522c89510e02e3919e837b8996166") format("woff2"), url("../fonts/flaticon_mycollection.woff?db6522c89510e02e3919e837b8996166") format("woff"), url("../fonts/flaticon_mycollection.eot?db6522c89510e02e3919e837b8996166#iefix") format("embedded-opentype"), url("../fonts/flaticon_mycollection.ttf?db6522c89510e02e3919e837b8996166") format("truetype"), url("../fonts/flaticon_mycollection.svg?db6522c89510e02e3919e837b8996166#flaticon_mycollection") format("svg")
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: -0.125em;
+}
+
+.flaticon-search:before {
+    content: "\f101";
+}
+
+.flaticon-dna-structure:before {
+    content: "\f102";
+}
+
+.flaticon-dna:before {
+    content: "\f103";
+}
+
+.flaticon-check-mark:before {
+    content: "\f104";
+}
+
+.flaticon-file:before {
+    content: "\f105";
+}
+
+.flaticon-laboratory:before {
+    content: "\f106";
+}
+
+.flaticon-microscope:before {
+    content: "\f107";
+}
+
+.flaticon-test-tube:before {
+    content: "\f108";
+}
+
+.flaticon-chemistry:before {
+    content: "\f109";
+}
+
+.flaticon-play-button-arrowhead:before {
+    content: "\f10a";
+}
+
+.flaticon-premium-quality:before {
+    content: "\f10b";
+}
+
+.flaticon-share:before {
+    content: "\f10c";
+}
+
+.flaticon-right:before {
+    content: "\f10d";
+}
+
+.flaticon-left:before {
+    content: "\f10e";
+}
+
+.flaticon-facebook:before {
+    content: "\f10f";
+}
+
+.flaticon-linkedin:before {
+    content: "\f110";
+}
+
+.flaticon-telegram:before {
+    content: "\f111";
+}
+
+.flaticon-whatsapp:before {
+    content: "\f112";
+}
+
+.flaticon-tik-tok:before {
+    content: "\f113";
+}
+
+.flaticon-youtube:before {
+    content: "\f114";
+}
+
+.flaticon-pinterest:before {
+    content: "\f115";
+}
+
+.flaticon-twitter:before {
+    content: "\f116";
+}
+
+.flaticon-twitter-1:before {
+    content: "\f117";
+}
+
+.flaticon-top-right:before {
+    content: "\f118";
+}
+
+.flaticon-paper-plane:before {
+    content: "\f119";
+}
+
+.flaticon-user:before {
+    content: "\f11a";
+}
+
+.flaticon-chat-bubble:before {
+    content: "\f11b";
+}
+
+.flaticon-calendar:before {
+    content: "\f11c";
+}
+
+.flaticon-price-tag:before {
+    content: "\f11d";
+}
+
+.flaticon-right-arrow:before {
+    content: "\f11e";
+}
+
+.flaticon-phone-call:before {
+    content: "\f11f";
+}
+
+.flaticon-email:before {
+    content: "\f120";
+}
+
+.flaticon-location:before {
+    content: "\f121";
+}
+
+.flaticon-envelope:before {
+    content: "\f122";
+}
+
+.flaticon-phone:before {
+    content: "\f123";
+}
+
+.flaticon-location-1:before {
+    content: "\f124";
+}
+
+.flaticon-arrow-down:before {
+    content: "\f125";
+}
+
+.flaticon-pdf-file:before {
+    content: "\f126";
+}
+
+.flaticon-download-pdf:before {
+    content: "\f127";
+}
+
+.flaticon-left-quote:before {
+    content: "\f128";
+}
+
+.flaticon-microscope-1:before {
+    content: "\f129";
+}
+
+.flaticon-flask:before {
+    content: "\f12a";
+}
+
+.flaticon-flask-1:before {
+    content: "\f12b";
+}
+
+.flaticon-test-tube-1:before {
+    content: "\f12c";
+}
+
+.flaticon-research:before {
+    content: "\f12d";
+}
+
+.flaticon-lab-equipment:before {
+    content: "\f12e";
+}
+
+.flaticon-medical-laboratory:before {
+    content: "\f12f";
+}
+
+.flaticon-flasks:before {
+    content: "\f130";
+}
+
+.flaticon-virtual-lab:before {
+    content: "\f131";
+}
+
+.flaticon-flask-2:before {
+    content: "\f132";
+}
+
+.flaticon-chemistry-1:before {
+    content: "\f133";
+}
+
+.flaticon-laboratory-1:before {
+    content: "\f134";
+}
+
+.flaticon-blood-tube:before {
+    content: "\f135";
+}
+
+.flaticon-medical-laboratory-1:before {
+    content: "\f136";
+}
+
+.flaticon-molecule:before {
+    content: "\f137";
+}
+
+.flaticon-lab:before {
+    content: "\f138";
+}
+
+.flaticon-test:before {
+    content: "\f139";
+}
+
+.flaticon-report:before {
+    content: "\f13a";
+}
+
+.flaticon-analysis:before {
+    content: "\f13b";
+}
+
+.flaticon-lab-1:before {
+    content: "\f13c";
+}
+
+.flaticon-report-1:before {
+    content: "\f13d";
+}
+
+.flaticon-medical-laboratory-2:before {
+    content: "\f13e";
+}
+
+.flaticon-laboratory-2:before {
+    content: "\f13f";
+}
+
+.flaticon-laboratory-research:before {
+    content: "\f140";
+}
+
+.flaticon-biochemistry:before {
+    content: "\f141";
+}
+
+.flaticon-lab-2:before {
+    content: "\f142";
+}
+
+.flaticon-chemistry-2:before {
+    content: "\f143";
+}
+
+.flaticon-nuclear:before {
+    content: "\f144";
+}
+
+.flaticon-molecules:before {
+    content: "\f145";
+}
+
+.flaticon-biochemistry-1:before {
+    content: "\f146";
+}
+
+.flaticon-flask-3:before {
+    content: "\f147";
+}
+
+.flaticon-weight:before {
+    content: "\f148";
+}
+
+.flaticon-filter:before {
+    content: "\f149";
+}
+
+.flaticon-lab-3:before {
+    content: "\f14a";
+}
+
+.flaticon-flask-4:before {
+    content: "\f14b";
+}
+
+.flaticon-experiment:before {
+    content: "\f14c";
+}
+
+.flaticon-jar:before {
+    content: "\f14d";
+}
+
+.flaticon-lab-4:before {
+    content: "\f14e";
+}
+
+.flaticon-molecular:before {
+    content: "\f14f";
+}
+
+.flaticon-chemistry-3:before {
+    content: "\f150";
+}
+
+.flaticon-geochemistry:before {
+    content: "\f151";
+}
+
+.flaticon-chemistry-4:before {
+    content: "\f152";
+}
+
+.flaticon-book:before {
+    content: "\f153";
+}
+
+.flaticon-chemistry-5:before {
+    content: "\f154";
+}
+
+.flaticon-laboratory-3:before {
+    content: "\f155";
+}
+
+.flaticon-lab-5:before {
+    content: "\f156";
+}
+
+.flaticon-chemistry-6:before {
+    content: "\f157";
+}
+
+.flaticon-lab-6:before {
+    content: "\f158";
+}
+
+.flaticon-experiment-1:before {
+    content: "\f159";
+}
+
+.flaticon-dna-1:before {
+    content: "\f15a";
+}
+
+.flaticon-biochemistry-2:before {
+    content: "\f15b";
+}
+
+.flaticon-bunsen-burner:before {
+    content: "\f15c";
+}
+
+.flaticon-chemical-analysis:before {
+    content: "\f15d";
+}
+
+.flaticon-molecules-1:before {
+    content: "\f15e";
+}
+
+.flaticon-flask-5:before {
+    content: "\f15f";
+}
+
+.flaticon-molecules-2:before {
+    content: "\f160";
+}
+
+.flaticon-molecule-1:before {
+    content: "\f161";
+}
+
+.flaticon-scientist:before {
+    content: "\f162";
+}
+
+.flaticon-molecule-2:before {
+    content: "\f163";
+}
+
+.flaticon-lab-7:before {
+    content: "\f164";
+}
+
+.flaticon-certificate:before {
+    content: "\f165";
+}
+
+.flaticon-flask-6:before {
+    content: "\f166";
+}
+
+.flaticon-scientist-1:before {
+    content: "\f167";
+}
+
+.flaticon-weight-scale:before {
+    content: "\f168";
+}
+
+.flaticon-dropper:before {
+    content: "\f169";
+}
+
+.flaticon-science:before {
+    content: "\f16a";
+}
+
+.flaticon-periodic-table:before {
+    content: "\f16b";
+}
+
+.flaticon-tongs:before {
+    content: "\f16c";
+}
+
+.flaticon-chemistry-7:before {
+    content: "\f16d";
+}
+
+.flaticon-science-1:before {
+    content: "\f16e";
+}
+
+.flaticon-flask-7:before {
+    content: "\f16f";
+}
+
+.flaticon-lab-scale:before {
+    content: "\f170";
+}
+
+.flaticon-flask-8:before {
+    content: "\f171";
+}
+
+.flaticon-microscope-2:before {
+    content: "\f172";
+}
+
+.flaticon-lab-coat:before {
+    content: "\f173";
+}
+
+.flaticon-ph-meter:before {
+    content: "\f174";
+}
+
+.flaticon-science-book:before {
+    content: "\f175";
+}
+
+.flaticon-reaction:before {
+    content: "\f176";
+}
+
+.flaticon-test-tube-2:before {
+    content: "\f177";
+}
+
+.flaticon-chemical:before {
+    content: "\f178";
+}
+
+.flaticon-chemical-analysis-1:before {
+    content: "\f179";
+}
+
+.flaticon-research-1:before {
+    content: "\f17a";
+}
+
+.flaticon-physics:before {
+    content: "\f17b";
+}
+
+.flaticon-science-2:before {
+    content: "\f17c";
+}
+
+.flaticon-dna-2:before {
+    content: "\f17d";
+}
+
+.flaticon-chemical-1:before {
+    content: "\f17e";
+}
+
+.flaticon-science-3:before {
+    content: "\f17f";
+}
+
+.flaticon-experiment-2:before {
+    content: "\f180";
+}
+
+.flaticon-molecule-3:before {
+    content: "\f181";
+}
+
+.flaticon-science-book-1:before {
+    content: "\f182";
+}
+
+.flaticon-lab-8:before {
+    content: "\f183";
+}
+
+.flaticon-dna-3:before {
+    content: "\f184";
+}
+
+.flaticon-chemist:before {
+    content: "\f185";
+}
+
+.flaticon-flask-9:before {
+    content: "\f186";
+}
+
+.flaticon-relativity:before {
+    content: "\f187";
+}
+
+.flaticon-data:before {
+    content: "\f188";
+}
+
+.flaticon-chemistry-8:before {
+    content: "\f189";
+}
+
+.flaticon-research-2:before {
+    content: "\f18a";
+}
