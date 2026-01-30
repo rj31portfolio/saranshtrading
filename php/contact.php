@@ -53,7 +53,7 @@ if (!empty($errors)) {
     exit;
 }
 
-$to = 'saranshtrading@gmail.com';
+$to = 'info.viraladsmedia@gmail.com';
 $subject = 'New quote request from ' . $name;
 $bodyLines = [
     'New inquiry received:',
@@ -70,7 +70,7 @@ $body = implode("\n", $bodyLines);
 $headers = [];
 $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/plain; charset=UTF-8';
-$headers[] = 'From: Saransh Trading Company <saranshtrading@gmail.com>';
+$headers[] = 'From: Saransh Trading Company <info.viraladsmedia@gmail.com>';
 $headers[] = 'Reply-To: ' . $email_raw;
 
 $sent = @mail($to, $subject, $body, implode("\r\n", $headers));
