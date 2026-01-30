@@ -244,30 +244,50 @@
             // if the validator does not prevent form submit
             if (!e.isDefaultPrevented()) {
                 var url = "php/contact.php";
+                var $form = jQuery(this);
+                var fallbackName = ($form.find('[name="name"]').val() || '').trim() || 'Customer';
+
+                function showAlert(type, title, text) {
+                    if (typeof Swal !== 'undefined') {
+                        Swal.fire({
+                            icon: type,
+                            title: title,
+                            text: text,
+                            confirmButtonText: 'OK'
+                        });
+                        return;
+                    }
+
+                    alert(title + "\n" + text);
+                }
 
                 // POST values in the background the the script URL
                 jQuery.ajax({
                     type: "POST",
                     url: url,
-                    data: jQuery(this).serialize(),
-                    success: function(data) {
-                        // data = JSON object that contact.php returns
+                    data: $form.serialize(),
+                    dataType: "json"
+                }).done(function(data) {
+                    var status = (data && data.status) ? data.status : 'error';
+                    var customerName = (data && data.name) ? data.name : fallbackName;
+                    var messageText = (data && data.message) ? data.message : 'Something went wrong. Please try again.';
 
-                        // we recieve the type of the message: success x danger and apply it to the 
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
-
-                        // let's compose Bootstrap alert box HTML
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-
-                        // If we have messageAlert and messageText
-                        if (messageAlert && messageText) {
-                            // inject the alert to .messages div in our form
-                            jQuery('#contact-form, #main-form').find('.messages').html(alertBox).show().delay(2000).fadeOut('slow');
-                            // empty the form
-                            jQuery('#contact-form, #main-form')[0].reset();
-                        }
+                    if (status === 'success') {
+                        showAlert('success', 'Thank you, ' + customerName + '!', messageText);
+                        $form[0].reset();
+                    } else {
+                        showAlert('error', 'Sorry, ' + customerName + '.', messageText);
                     }
+                }).fail(function(xhr) {
+                    var response = {};
+                    try {
+                        response = JSON.parse(xhr.responseText || '{}');
+                    } catch (e) {
+                        response = {};
+                    }
+                    var customerName = response.name || fallbackName;
+                    var messageText = response.message || 'We could not send your request. Please try again.';
+                    showAlert('error', 'Sorry, ' + customerName + '.', messageText);
                 });
                 return false;
             }

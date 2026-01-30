@@ -1103,16 +1103,16 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Select Product</label>
-                                            <select class="form-control form-select" aria-label="Default select example">
-                  <option selected>Select Product</option>
-                  <option value="1">Industrial Thinner</option>
-                  <option value="2">Liquid Acetone</option>
-                  <option value="3">Ethyl Acetate</option>
-                  <option value="4">Methylene Dichloride</option>
-                  <option value="5">High Quality Liquid Toluene</option>
-                  <option value="6">Mono Ethylene Glycol</option>
-                  <option value="7">Industrial Methyl Isobutyl Ketone</option>
-                  <option value="8">Industrial Cleaning Solvent</option>
+                                            <select class="form-control form-select" name="product" required="required" aria-label="Default select example">
+                  <option value="" selected>Select Product</option>
+                  <option value="Industrial Thinner">Industrial Thinner</option>
+                  <option value="Liquid Acetone">Liquid Acetone</option>
+                  <option value="Ethyl Acetate">Ethyl Acetate</option>
+                  <option value="Methylene Dichloride">Methylene Dichloride</option>
+                  <option value="High Quality Liquid Toluene">High Quality Liquid Toluene</option>
+                  <option value="Mono Ethylene Glycol">Mono Ethylene Glycol</option>
+                  <option value="Industrial Methyl Isobutyl Ketone">Industrial Methyl Isobutyl Ketone</option>
+                  <option value="Industrial Cleaning Solvent">Industrial Cleaning Solvent</option>
                 </select>
                                         </div>
                                     </div>
@@ -1737,6 +1737,9 @@
 
     <!--== color-customize -->
     <script src="js/color-customize/color-customizer.js"></script>
+
+    <!--== sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!--== theme-script -->
     <script src="js/theme-script.js"></script>
